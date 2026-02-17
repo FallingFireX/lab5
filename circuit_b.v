@@ -3,6 +3,6 @@ module circuit_b(
     output Y
 );
 
-   assign Y = //equation here
+    assign Y = (~C & ~D) | (A & B) | ( B & C & ~D);
 
 endmodule
