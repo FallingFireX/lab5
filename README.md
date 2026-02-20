@@ -16,12 +16,16 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Name
 
 ## Lab Summary
+In this lab, we took two truth tables and were asked to implement them as a minterm and maxterm respecivelly. We then had to write our own top.v, mapping each truth table output to a switch on the board. We then put our written minterm and maxterm codes, put into files circuit_a.v and circuit_b.v, along with the contraint and our written top.v, to successfully make an LED switch array, with the output of B being dependent on the output of A.
 
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
+The top level file is the file that creates the structural foundation for the verilog project. It connects all lower level modules together, and the simulation, synthesis, and bitstream are run through it. 
 
 ### 2 - Explain the function of the Constraints file.
+
+the Constraints file is used to tell the synthesis and implementation tools how your logical design should map onto the physical hardware. The contrsaints file, as the name suggests, sets the parameters of the build, ensuring reasonable electrical requirements, clock speeds, and maps the code to a physical output on the board. 
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
