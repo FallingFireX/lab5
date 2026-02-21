@@ -29,3 +29,4 @@ the Constraints file is used to tell the synthesis and implementation tools how 
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
+It would have been generally more efficient to flip them. Aka, Minterm on Circuit A and Max term on Circuit B. However,the original arrangement worked and saying they are incorrect would be inaccurate; moreso that flipping them may have been more efficient. 
